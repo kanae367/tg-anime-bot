@@ -20,8 +20,8 @@ You can try it [here](https://t.me/anime367_bot)
 Or if you want to run bot on a server:
 
 1.  `git clone https://github.com/kanae367/tg-anime-bot`
-2.  `cd th-anime-bot`
-3.  `cp keys_publick.env keys.env`
+2.  `cd tg-anime-bot`
+3.  `cp keys_public.env keys.env`
 4.  Replace the API key inside keys.env with your key
 5.  `docker build -t image_name .`
 6.  `docker run -it -d --env-file keys.env --name image_name image_name`
